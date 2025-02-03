@@ -103,9 +103,9 @@ section {
         gap: 10px;
     }
     & .btn {
-        margin: 0 40%;
+        margin: auto;
+        width: 100%;
         display: flex;
-
     }
     & .btn button {
         font-size: 18px;
@@ -121,6 +121,20 @@ section {
             color: #000;
             cursor: pointer;
             transition: .5s ease;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        & .body {
+            width: 100%;
+        }
+        & .button button {
+            width: 30%;
+        }
+        & .btn button {
+            width: 100%;
         }
     }
 }
