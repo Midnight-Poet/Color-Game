@@ -6,7 +6,7 @@
 h1 {
     text-align: center;
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
     margin: 10px 0;
 
@@ -15,7 +15,7 @@ body {
     overflow-x: hidden;
 }
 .anime {
-    position: absolute;
+    position: fixed;
     z-index: 99;
     top: 0;
     left: 0;
@@ -38,11 +38,10 @@ body {
     display: none;
 }
 .pop {
-    position: absolute;
-    text-align: center;
+    position: fixed;
+    margin: auto;
     display: block;
     font-size: 40px;
-    width: 100%;
     scale: 0;
     z-index: 999;
     color: #fff;

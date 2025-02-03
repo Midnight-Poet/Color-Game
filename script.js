@@ -16,13 +16,13 @@ let div = document.querySelector('.hey')
 let reset = document.querySelector('.reset')
 
 let x = 0
-
+let random
 let btnArray = []
-let random = Math.floor(Math.random() * colorSet[0].length)
 
 
 let func = () => {
     for (let i = 0; i < btn.children.length; i++) {
+        random = Math.floor(Math.random() * colorSet[0].length)
         btnArray.push(btn.children[i])
         btn.children[i].style.backgroundColor = colorSet[x][i]
         body.style.backgroundColor = colorSet[x][random]
