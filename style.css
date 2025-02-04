@@ -42,6 +42,7 @@ body {
     margin: auto;
     display: block;
     font-size: 40px;
+    width: 90%;
     scale: 0;
     z-index: 999;
     color: #fff;
